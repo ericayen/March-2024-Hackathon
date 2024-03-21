@@ -1,0 +1,152 @@
+@use "./partials/background" as *;
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap");
+
+.header,
+.footer {
+  background-color: $clearblack;
+
+  &__wrapper {
+    padding: 1.25rem;
+  }
+
+  &__title {
+    color: white;
+    font-family: "Trispace", sans-serif;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    text-align: center;
+    letter-spacing: 0.075rem;
+  }
+}
+
+.container {
+  position: relative;
+
+  &__content {
+    position: absolute;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem 2rem;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 8%;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $nightsky;
+    border-radius: 16rem;
+    background-color: #00000050;
+
+    @include desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      transition: transform 0.3s ease;
+      top: 7%;
+    }
+  }
+
+  &__wrapper {
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    color: #ffffff50;
+    font-family: "Trispace", sans-serif;
+    font-size: clamp(0.55rem, 3.5vw, 0.85rem);
+    margin-bottom: 0.5rem;
+  }
+
+  &__img {
+    width: clamp(10.5rem, 65vw, 13rem);
+    border: 1px solid $nightsky;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgb(225, 225, 225, 0.5);
+    width: 70%;
+  }
+
+  &__textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__advice {
+    width: 75%;
+    color: white;
+    font-family: "Trispace", sans-serif;
+    font-size: clamp(0.65rem, 4vw, 0.85rem);
+    letter-spacing: 0.025rem;
+    margin: clamp(0.5rem, 1vw, 3rem);
+  }
+
+  &__button {
+    background-color: $nightsky;
+    color: white;
+    font-family: "Trispace", sans-serif;
+    font-size: clamp(0.675rem, 4.25vw, 0.75rem);
+    font-weight: 600;
+    padding: 0.35rem 1rem;
+    margin-top: clamp(0.5rem, 1.5vw, 2rem);
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      background-color: white;
+      border: 1px solid white;
+      color: $nightsky;
+    }
+
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+
+  &__description {
+    display: none;
+
+    &--hover {
+      @extend .container__advice;
+      display: block;
+      position: absolute;
+      border-radius: 0.5rem;
+      background-color: $nightsky;
+      color: white;
+      font-size: 0.5625rem;
+      padding: 0.5rem;
+      cursor: pointer;
+
+      @include tablet {
+        font-size: 0.8125rem;
+      }
+
+      @include desktop {
+        font-size: 0.875rem;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: $clearblack;
+  font-family: "Trispace", sans-serif;
+  font-size: clamp(0.45rem, 3.5vw, 0.775rem);
+  letter-spacing: 0.035rem;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  text-align: center;
+}
