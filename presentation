@@ -2,36 +2,25 @@ https://docs.google.com/document/d/1_vTNpkJFG9Zwmhani2zGiBZT_RuZfGHjL70JcuhiCuI/
 
 /* STELLAR SUGGESTIONS */
 
-/introduce team & members/
-"A fun interctive website that offers you unsolicited advice from the stars".. "some may even call them /stellar/ suggestions *ba dum tsss*
+/introduce team & members/ TRI SOLAR TRIO!! 
+"A fun interactive web app (online magic 8 ball) that offers you unsolicited advice, and information from the stars".. "some may even call them /stellar/ suggestions *ba dum tsss*
 
-This front-end web application displays the image of the day from NASA's API, along with random pieces of advice from the Advice API. Users can interact with the website by hovering over the image to display information about the photo, and refresh the advice with a button click, creating a simple yet engaging experience.
+This front-end web application displays the image of the day from NASA's API, along with random pieces of advice from the Advice API. Users can interact with the website by hovering over the image to display information about the photo, and refresh the advice with a button click, creating a simple yet engaging experience. The site also features responsive design, so 
+[Quick demo responsive design (Heather will go over it more)]
 
 - We brainstormed together to come up with this idea using our whiteboarding skillzzzzz !!!
 - we worked on it simultaneously through Live Share, offering help to each other as a group when something would break... etc
 - we each loosely had features that we worked on, but would also support the group on the project as a whole, so its not just each person working by themselves on one part of the project
-- ensures that the end project is cohesive 
+- A truly collaborative effort between us...and we enjoyed the process!
+- ensures that the end product is cohesive 
 TEAMWORK!! COHESIVNESS!! (thumbs up!!) WOOHOO!!YAAAYYYY!!! :D
 
-Project
-- Highlight both APIS
-- Quick demo responsive design (Heather will go over it more)
 
 Erica
 - Set up the collaborative space 
 - NASA API 
-- Used JS to retreive & display image of the day 
-- Used JS to retreive info about the image of the day & display when user hovers over the image 
+- Used asynchronous functions to retreive & display image of the day, and also to retreive info about the image of the day & combines w/ DOM APIs to display info when user hovers over the image 
 - Helped with the styling i.e. colors, layout, etc. 
-
-HI TEAM 
-SHOULD WE GIVE OURSELVES A NAME LOL - yessss
-i was thinking some space-y to go with our theme - do you have any suggestions ?
-shoul we move this to ideas ? ill just keep it here since theres not much planning for this.. just something simple 
-
-celestial trinity :P
-supernova squad
-tri-solar trio - i like this one~
 
 Padma
 -Suggested APIs during creative brainstorm session only after testing the response in thunderClient including OpenAI.
@@ -48,6 +37,7 @@ Heather:
 - Focused on site design and responsiveness.
 - Created the site's textual content.
 - Introduced a new font and implemented button styling.
+
 - Supported functionality implementation:
 - Improved code reusability and organization by refactoring API keys.
 - Updated the JavaScript code organization to reflect appropriate name changes, eg, transitioning from affirmations to advice.

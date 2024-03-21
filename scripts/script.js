@@ -30,6 +30,7 @@ const getImage = async () => {
     imgSrc.addEventListener("mouseleave", () => {
       imgDescription.classList.remove("container__description--hover");
     });
+
   } catch (error) {
     console.error("Unable to get image :(", error.message);
   }
