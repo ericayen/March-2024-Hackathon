@@ -2,7 +2,7 @@
 
 ## Overview
 
-This web app was created as part of a Web API Hackathon. It displays NASA's image of the day, along with random pieces of advice. Some may even call them... /stellar/ suggestions. 
+This web app was created as part of a Web API Hackathon. It displays NASA's image of the day, along with random pieces of advice. Some may even call them... <i>stellar</i> suggestions. 
 
 ### Features
 
