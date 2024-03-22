@@ -5,7 +5,7 @@ https://docs.google.com/document/d/1_vTNpkJFG9Zwmhani2zGiBZT_RuZfGHjL70JcuhiCuI/
 /introduce team & members/ TRI SOLAR TRIO!! 
 "A fun interactive web app (online magic 8 ball) that offers you unsolicited advice, and information from the stars".. "some may even call them /stellar/ suggestions *ba dum tsss*
 
-This front-end web application displays the image of the day from NASA's API, along with random pieces of advice from the Advice API. Users can interact with the website by hovering over the image to display information about the photo, and refresh the advice with a button click, creating a simple yet engaging experience. The site also features responsive design, so 
+This front-end web application displays the image of the day from NASA's API, along with random pieces of advice from the Advice API. Users can interact with the website by hovering over the image to display information about the photo, and refresh the advice with a button click, creating a simple yet engaging experience. The site also features responsive design, so it maintains a consistent appearance across different device sizes.
 [Quick demo responsive design (Heather will go over it more)]
 
 - We brainstormed together to come up with this idea using our whiteboarding skillzzzzz !!!

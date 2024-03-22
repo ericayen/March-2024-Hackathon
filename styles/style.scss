@@ -65,11 +65,14 @@
   }
 
   &__img {
-    width: clamp(10.5rem, 65vw, 13rem);
+    width: 70%;
     border: 1px solid $nightsky;
     border-radius: 0.5rem;
     box-shadow: 0 0 10px rgb(225, 225, 225, 0.5);
-    width: 70%;
+
+    @include desktop {
+      margin-left: 1rem;
+    }
   }
 
   &__textbox {
