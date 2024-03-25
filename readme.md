@@ -6,12 +6,12 @@ This web app was created as part of a Web API Hackathon. It displays NASA's imag
 
 ### Features
 
-Users can interest with the website by hovering over the image to display information about the photo, and refresh the advice with a button click, creating a simple yet engaging experience. The site also features responsive design, so it maintains a consistent appearance across different device sizes.
+Users can interact with the website by hovering over the image to display information about the photo, and refresh the advice with a button click, creating a simple yet engaging experience. The site also features responsive design, so it maintains a consistent appearance across different device sizes.
 
 ### Tech Stack & APIs
 
-HTML
-CSS/SASS
+HTML,
+CSS/SASS,
 Javascript 
 
 NASA API: https://api.nasa.gov/
